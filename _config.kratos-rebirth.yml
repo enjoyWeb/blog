@@ -1,0 +1,262 @@
+# 参数说明 https://github.com/Candinya/Kratos-Rebirth/blob/master/Kratos-Rebirth-Manual.md
+# 图标使用FontAwesome  http://www.fontawesome.com.cn/faicons/
+
+# Global 全局配置
+site_analytics: ''
+hoster: <a href="https://github.com/enjoyWeb" target="_blank">enjoyWeb</a>
+site_logo: ''
+snow: false
+click_animate_js: 'candy'
+enable_dark: true
+highlight_theme: night-eighties # 代码高亮主题（light | night | night-eighties | night-blue | night-bright）
+cdn: false # 请注意这里是静态资源的 CDN 来源，图片的 CDN 在下方 jsconfig.main.pic.CDN 段配置
+check_update: true
+
+# 自定义样式
+customStyles:
+  images: # 图片相关设置
+    banner: /images/banner.webp # 站点横幅
+    background: /images/bg.webp # 站点背景
+
+# Index 首页配置
+index:
+  post_type: false
+  read_count: true
+  comment_count: true
+
+# Top Menu 顶部导航栏配置 （具体格式请参照文档）
+menu:
+  index: /
+  archives: /archives/
+  skill:
+    submenu: true
+    web: /categories/前端技术/Web/
+    vue: /categories/前端技术/Vue/
+    typescript: /categories/前端技术/TypeScript/
+    git: /categories/前端技术/Git/
+    webpack: /categories/前端技术/Webpack/
+    canvas: /categories/前端技术/Canvas/
+    mongodb: /categories/前端技术/MongoDB/
+    node: /categories/前端技术/Node/
+    markdown: /categories/前端技术/Markdown/
+  collect:
+    submenu: true
+    bookmark: /2022/07/04/个人收藏/书签管理/
+    opensource: /2022/07/04/个人收藏/开源集合/
+  web:
+    submenu: true
+    html: /categories/常见题目/HTML/
+    css: /categories/常见题目/CSS/
+    javascript: /categories/常见题目/JavaScript/
+    vue: /categories/常见题目/Vue/
+  friends: /friends/
+  sites:
+    submenu: true
+    resume: http://www.zlingweb.com
+    github: https://github.com/enjoyWeb
+
+label:
+  index: <i class="fa fa-home"></i>首页
+  archives: <i class="fa fa-file"></i>归档
+  skill:
+    submenu: <i class="fa fa-tachometer"></i>前端技术
+    web: Web
+    vue: Vue
+    typescript: TypeScript
+    git: Git
+    webpack: Webpack
+    canvas: Canvas
+    mongodb: MongoDB
+    node: Node
+    markdown: Markdown
+  collect:
+    submenu: <i class="fa fa-star"></i>个人收藏
+    bookmark: 书签管理
+    opensource: 开源集合
+  web:
+    submenu: <i class="fa fa-cubes"></i>常见题目
+    html: HTML
+    css: CSS
+    javascript: JavaScript
+    vue: Vue
+  friends: <i class="fa fa-paw"></i>好友
+  sites:
+    submenu: <i class="fa fa-link"></i>关于我
+    resume: 个人简历
+    github: Github
+
+# Footer 页脚配置
+group_link: http://www.zlingweb.com
+contact:
+  weibo:
+  mail:
+  telegram:
+  twitter:
+  facebook:
+  linkedin:
+  fediverse:
+    instance:
+    username:
+  github:
+  rss:
+timenotice: 本站已运行
+icp: 闽ICP备16008566号
+psr:
+
+# Post Page 文章页配置
+posts:
+  show_cc: true
+  donate: true
+  share: true
+  comments:
+    provider: 'gitalk'
+    enableBGImage: true
+
+# Disqus [Disqus](https://disqus.com) 评论相关
+disqus:
+  shortname:
+
+# DisqusJS [DisqusJS](https://disqusjs.skk.moe/) 评论相关
+disqusjs:
+  shortname:
+  sitename:
+  api:
+  apikey:
+  admin:
+  adminlabel:
+
+# Valine [Valine](https://valine.js.org) 评论相关
+valine:
+  app_id:
+  app_key:
+  visitor: true
+  enableQQ: false
+
+# Twikoo [Twikoo](https://twikoo.js.org) 评论相关
+twikoo:
+  env_id:
+
+# Waline [Waline](https://waline.js.org) 评论相关
+## 不仅限于以下内容，您可以参照 Waline的 [前端配置文档](https://waline.js.org/reference/client.html) 设置您需要的配置项
+## el 和 path 会在页面自动生成，不必加入
+waline:
+  serverURL: #后端服务器地址，必填
+  visitor: true
+
+# Gitalk [Gitalk](https://gitalk.github.io/) 评论相关
+## 不仅限于以下内容，您可以参照 [Gitalk 文档](https://github.com/gitalk/gitalk/blob/master/readme-cn.md#%E8%AE%BE%E7%BD%AE) 设置您需要的配置项
+## id 会在页面自动生成，不必加入
+gitalk:
+  clientID: 'dbd37fef3fb73d08ae5c'
+  clientSecret: 'f589f093ed4c67b7245fb699fd439eceb0ecd769'
+  repo: 'zhongling.vip'
+  owner: 'enjoyWeb'
+  admin:
+    - 'enjoyWeb'
+  distractionFreeMode: true
+
+# Gitment [Gitment](https://github.com/imsun/gitment/) 评论相关
+## 不仅限于以下内容，您可以参照 [Gitment 文档](https://github.com/imsun/gitment#methods) 设置您需要的配置项
+## id 会在页面自动生成，不必加入
+gitment:
+  owner: 'enjoyWeb'
+  repo: 'zhongling.vip'
+  oauth:
+    client_id: 'ee70e4c5100677bb4a9f'
+    client_secret: '7a19a1351b2951690332afe82a02199cabc1b213'
+
+# LiveRe [LiveRe](https://livere.com/) 评论相关
+livere:
+  id: city
+  uid:
+
+# APlayer 左下角音乐播放器
+aplayer:
+  enabled: true
+  playlist:
+  meting:
+    server: netease
+    type: playlist
+    id: 3204190542
+  order: random
+
+# Widgets 侧边栏小挂件
+sidebar: right # left/right/none
+widgets:
+- about
+- splitter
+- toc
+- category
+- tagcloud
+- posts
+avatarUri: /images/avatar.webp
+mobile_toc:
+  hide: false
+  hide_id: false
+
+# Fancybox 文章内图片单击放大
+fancybox: true
+
+# Search 搜索
+search:
+  enable: true
+  path: search.json
+  field: post # page | post | all. Default post
+  content: true # Include post | page content
+
+# JavaScript 相关配置
+## 由于Javascript被压缩后难以有效编辑与生成，因而为了简化操作，将相关的配置项在生成文件时以独立的json文件写出，调用时使用fetch API获取。
+jsconfig:
+  main:
+    pic:
+      random_amount: 20 # 表示从1~20
+      filename: "images/thumb/thumb_{no}.webp" # 相对于主题根目录，表示文件名的格式, {no} 用以指代随机的编号。
+                                              # 如果包含 // 表示使用指定域名的绝对路径（例如第三方图床服务等），那么会忽略 CDN 选项
+    createTime: "2022/07/01 00:00:00"
+    donateBtn: "支持我~"
+    scanNotice: "扫一扫，好不好？"
+    qr_alipay: "/images/alipayqr.webp"
+    qr_wechat: "/images/wechatpayqr.webp"
+    siteLeaveEvent: false
+    leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
+    returnTitle: "(*´∇｀*)欸，又好啦~"
+    copyrightNotice: "该内容采用 CC BY-NC-SA 4.0 许可协议，著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+    expire_day: 30
+    topNavScrollToggle: true
+
+# Site verify 站点验证相关配置内容
+site_verify:
+  google:
+  baidu:
+  bing:
+
+# Friends 友链相关内容
+friends:
+  href: "friends"
+  page:
+    title: "友情链接"
+    comments: false
+    description: "好伙伴们在哪里~"
+    updated: "2022-07-01"
+  list:
+  - name: "步步走"
+    bio: "高富帅一枚"
+    avatar: "https://bubuzou.oss-cn-shenzhen.aliyuncs.com/blog/202010/logo.svg"
+    link: "https://bubuzou.com"
+  - name: "前端Github"
+    bio: "专注于挖掘优秀的前端开源项目"
+    avatar: "https://www.kwgg2020.com/images/front-end-github.png"
+    link: "https://www.kwgg2020.com"
+  - name: "阮一峰的网络日志"
+    bio: "阮大佬"
+    avatar: "https://www.ruanyifeng.com/blog/images/person2_s.jpg"
+    link: "https://www.ruanyifeng.com/blog/javascript/"
+  - name: "鑫生活"
+    bio: "张鑫旭-鑫空间-鑫生活"
+    avatar: "https://cdn.zhangxinxu.com/wordpress/wp-content/themes/default/images/index_logo.gif"
+    link: "https://www.zhangxinxu.com"
+  - name: "NoteZ_技术博客"
+    bio: "Web前端开发、大数据可视化开发"
+    avatar: "http://flow.zhenglinglu.cn/logo.jpg"
+    link: "http://flow.zhenglinglu.cn"
+  verify: false # 验证每个友链的可访问性，炸了会有提示
