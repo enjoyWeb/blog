@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 黑糖玛奇朵
+title: 小马甲
 subtitle: '当你的才华还撑不起你的野心的时候，你就应该静下心来学习'
-description: ''
-keywords:
+description: '不要假装很努力，选择比努力重要'
+keywords: ['zlingweb', 'enjoyWeb', 'zhongling', '小马甲', '妞妞', '端午', '财富自由']
 author: zling
 language: en
 timezone: ''
@@ -103,7 +103,7 @@ theme: kratos-rebirth
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: 
+  repo:
     github:
       url: https://bbb@github.com/enjoyWeb/zhongling.vip.git/
       branch: main
