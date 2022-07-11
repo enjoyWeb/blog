@@ -216,8 +216,8 @@ jsconfig:
     createTime: "2022/07/01 00:00:00"
     donateBtn: "支持我~"
     scanNotice: "扫一扫，好不好？"
-    qr_alipay: "/images/alipayqr.webp"
-    qr_wechat: "/images/wechatpayqr.webp"
+    qr_alipay: "http://img.zlingweb.com/blog/alipayqr.jpg"
+    qr_wechat: "http://img.zlingweb.com/blog/wechatpayqr.webp"
     siteLeaveEvent: false
     leaveTitle: "{{{(>_<)}}}哦哟，崩溃啦~"
     returnTitle: "(*´∇｀*)欸，又好啦~"
