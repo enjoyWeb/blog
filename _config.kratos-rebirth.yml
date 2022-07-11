@@ -81,7 +81,7 @@ label:
     vue: Vue
   friends: <i class="fa fa-paw"></i>友情链接
   sites:
-    submenu: <i class="fa fa-link"></i>关于我
+    submenu: <i class="fa fa-user-md"></i>关于我
     resume: 个人简历
     github: Github
 
@@ -100,7 +100,7 @@ contact:
   github:
   rss:
 timenotice: 本站已运行
-icp: 闽ICP备16008566号
+icp: 闽ICP备16008566号-3
 psr:
 
 # Post Page 文章页配置
